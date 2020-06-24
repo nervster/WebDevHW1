@@ -1,0 +1,34 @@
+table {
+    border-style: solid;
+}
+th, td{
+    border-style:solid;
+}
+
+.input {
+    margin: 3px;
+    border: solid;
+    padding: 3px;
+}
+
+.outer-content {
+    background: pink;
+    width: 75%;
+    padding: 20px;
+}
+
+.inner-content {
+    background: blue;
+}
+
+tbody tr:nth-of-type(odd){
+    background: lightblue;
+}
+
+tbody tr:nth-of-type(even){
+    background: lightseagreen;
+}
+
+.input_radio {
+    margin: 3px;
+}
